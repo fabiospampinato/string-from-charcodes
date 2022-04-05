@@ -1,7 +1,7 @@
 
-/* HELPERS */
+/* IMPORT */
 
-const MAX_ARGUMENTS_LENGTH = 8192; // Above this threshold we risk a "call stack size exceeded" error
+import {MAX_ARGUMENTS_LENGTH} from './constants';
 
 /* MAIN */
 

@@ -1,8 +1,8 @@
 
 /* IMPORT */
 
-const {describe} = require ( 'fava' );
-const {default: fromCharCodes} = require ( '../dist' );
+import {describe} from 'fava';
+import fromCharCodes from '../dist/index.js';
 
 /* MAIN */
 
