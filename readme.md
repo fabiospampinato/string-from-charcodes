@@ -7,13 +7,15 @@ This should be about the fastest way to construct a string from charcodes.
 ## Install
 
 ```sh
-npm install --save string-from-charcodes
+npm install string-from-charcodes
 ```
 
 ## Usage
 
 ```ts
 import fromCharCodes from 'string-from-charcodes';
+
+// Let's construct a string from an array of charcodes
 
 const charCodes = [72, 101, 108, 108, 111, 44,  32,  87, 111, 114, 108, 100,  33];
 const string = fromCharCodes ( charCodes );
